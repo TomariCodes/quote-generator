@@ -1,1 +1,74 @@
+body {
+    background-color: #f8eaed;
+    font-family: Tahoma, sans-serif;
+}
 
+.generator-app-container {
+    margin: 120px auto;
+    max-width: 600px;
+   // background-color: #fff;
+}
+a {
+    color: #ffa4df;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #442036;
+    text-align: center;
+}
+
+form {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #fff1fa;
+    display: flex;
+    box-shadow: 0 20px 60px rgba(100, 50, 79, 0.08);
+    margin-bottom: 30px;
+}
+
+.keyword-input {
+    padding: 16px;
+    border: none;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 16px;
+    line-height: 20px;
+    color: #442036;
+}
+
+.keyword-input:focus {
+    outline: #ffa4df solid 1px;
+}
+
+.submit-button {
+    background-color: #ffa4df;
+    border: none;
+    color: #fff;
+    padding: 14px 24px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.quote-container {
+    font-size: 16px;
+    background-color: #fff1fa;
+    padding: 20px;
+    line-height: 1.5;
+    border-left: 3px solid #ffa4df;
+    box-shadow: 0 4px 30px 0 rgba(100, 50, 79, 0.03);
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
