@@ -1,3 +1,7 @@
+.hidden {
+    display: none;
+}
+
 body {
     background-color: #f8eaed;
     font-family: Tahoma, sans-serif;
@@ -24,13 +28,16 @@ h1 {
     text-align: center;
 }
 
-form {
-    padding: 30px;
+.form-container {
+    padding: 20px 15px;
     border-radius: 8px;
     background-color: #fff1fa;
-    display: flex;
     box-shadow: 0 20px 60px rgba(100, 50, 79, 0.08);
     margin-bottom: 30px;
+}
+
+form {
+    display: flex;
 }
 
 .keyword-input {
@@ -58,6 +65,13 @@ form {
     font-size: 16px;
 }
 
+.hint {
+    line-height: 1.5;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.6;
+}
+
 .quote-container {
     font-size: 16px;
     background-color: #fff1fa;
@@ -71,4 +85,14 @@ footer {
     text-align: center;
     font-size: 13px;
     margin-top: 30px;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.blink {
+    animation: blink 1s steps(5, start) infinite;
 }

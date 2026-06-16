@@ -15,8 +15,10 @@
       </header>
 
       <main>
-        <form id="quote-generator-form">
-          <input
+        <div class="form-container">
+
+          <form id="quote-generator-form">
+            <input
             type="text"
             placeholder="Enter the topic of the quote"
             autocomplete="off"
@@ -24,11 +26,13 @@
             required
             class="keyword-input"
             id="keyword-input"
-          />
-          <input class="submit-button" type="submit" value="Generate" />
-        </form>
-        <div class="quote-container" id="quote-container">
-          The quote will appear here once you click the "Generate" button.
+            />
+            <input class="submit-button" type="submit" value="Generate" />
+          </form>
+          <div class="hint">i.e. "happiness", "success", "love"</div>
+        </div>
+        <div class="quote-container hidden" id="quote-container">
+          
         </div>
       </main>
 
